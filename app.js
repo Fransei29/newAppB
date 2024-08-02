@@ -2,7 +2,7 @@ const express = require("express"); // Importa el módulo Express.
 const app = express(); // Crea una instancia de la aplicación Express.
 const cookieParser = require("cookie-parser"); // Middleware para manejar cookies
 const session = require("express-session"); // Middleware que facilita el manejo de sessiones
-require("dotenv").config(); // Importar y cargar las variables de entorno desde el archivo .env
+require("dotenv").config(); // ..Importar y cargar las variables de entorno desde el archivo .env
 const bodyParser = require("body-parser");
 const path = require("path");
 const { Sequelize, Model, DataTypes } = require("sequelize");
